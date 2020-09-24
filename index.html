@@ -117,10 +117,9 @@
 					</div>
 
 					
-					<fb:login-button  scope="public_profile,email" onlogin="checkLoginState();">
-						<i class="fa fa-facebook-official"></i> <span class="btn-facebook">Sign In With Facebook</span>
-					</fb:login-button>
-			
+					<div onlogin="checkLoginState();" class="fb-login-button"
+					     data-size="large" data-button-type="login_with" data-layout="default" 
+					     data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
 
 					
 					<div id="my-signin2"></div>
